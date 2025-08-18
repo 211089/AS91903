@@ -17,5 +17,9 @@ If you get a script error in PowerShell then run:
 
 `npm install express-ejs-layouts`
 
+`npm install @react-spring/parallax`
+
+`npm install react-scroll-parallax`
+
 ## How to run
 `node app.js`
