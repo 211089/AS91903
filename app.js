@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
     res.render('index', data);
 });
 
-app.get('/', (req, res) => {
+app.get('/scene1', (req, res) => {
     data = {
         title: 'Scene 1',
         description: 'First scene description.',
