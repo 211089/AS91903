@@ -11,15 +11,7 @@ If you get a script error in PowerShell then run:
 
 `npm init -y`
 
-`npm install express`
-
-`npm install ejs`
-
-`npm install express-ejs-layouts`
-
-`npm install @react-spring/parallax`
-
-`npm install react-scroll-parallax`
+`npm install express ejs express-ejs-layouts @react-spring/parallax react-scroll-parallax`
 
 ## How to run
 `node app.js`
