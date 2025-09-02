@@ -58,46 +58,6 @@ app.get('/scene3', (req, res) => {
     res.render('scene3', data);
 });
 
-app.get('/scene4', (req, res) => {
-    data = {
-        title: 'Scene 4',
-        description: 'Fourth scene description.',
-    }
-    res.render('scene4', data);
-});
-
-app.get('/scene5', (req, res) => {
-    data = {
-        title: 'Scene 5',
-        description: 'Fifth scene description.',
-    }
-    res.render('scene5', data);
-});
-
-app.get('/scene6', (req, res) => {
-    data = {
-        title: 'Scene 6',
-        description: 'Sixth scene description.',
-    }
-    res.render('scene6', data);
-});
-
-app.get('/scene7', (req, res) => {
-    data = {
-        title: 'Scene 7',
-        description: 'Seventh scene description.',
-    }
-    res.render('scene7', data);
-});
-
-app.get('/scene8', (req, res) => {
-    data = {
-        title: 'Scene 8',
-        description: 'Eighth scene description.',
-    }
-    res.render('scene8', data);
-});
-
 app.get('/contactus', (req, res) => {
     data = {
         title: 'Contact Us',
